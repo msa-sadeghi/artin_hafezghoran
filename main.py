@@ -17,5 +17,6 @@ while running == True:
     screen.fill("pink")
     my_player.draw(screen)
     my_player.move()
+    my_player.animation()
     pygame.display.update()
     clock.tick(FPS)
